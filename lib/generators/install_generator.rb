@@ -1,3 +1,4 @@
+require 'rails/generators/base'
 module Dop
   class InstallGenerator < Rails::Generator::Base
     source_root File.expand_path('../templates', __FILE__)
