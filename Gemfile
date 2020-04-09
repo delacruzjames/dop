@@ -11,5 +11,3 @@ group :test do
   gem 'webmock'
   gem 'vcr'
 end
-
-gem 'releasinator', '~> 0.6'
