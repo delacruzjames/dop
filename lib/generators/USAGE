@@ -1,0 +1,3 @@
+To copy a DragonPay Online Payment Ruby SDK default configuration and initializer to your Rails App.
+
+  rails g dop:install
