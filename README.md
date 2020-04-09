@@ -23,22 +23,6 @@ Or install it yourself as:
 ## Usage
 
     $ rails generate dop:install
-    
- For other ruby application, create a configuration file(config/dop.yml):
- 
- ```
- development: &default
-  mode: sandbox
-  client_id: client_id
-  client_secret: client_secret
-test:
-  <<: *default
-production:
-  mode: live
-  client_id: CLIENT_ID
-  client_secret: CLIENT_SECRET
-```
-
 
 ## License
 
