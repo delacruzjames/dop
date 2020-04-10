@@ -4,6 +4,7 @@ source "https://rubygems.org"
 gemspec
 
 gem 'rake', :require => false
+gem "rails", "~> 5.2"
 
 group :test do
   gem 'simplecov', :require => false
