@@ -2,7 +2,7 @@ require 'rails/generators/base'
 
 module Dop
   module Generators
-    class InstallGenerator < Rails::Generator::Base
+    class InstallGenerator < Rails::Generators::Base
       source_root File.expand_path('../templates', __FILE__)
       desc "Creates a dop initializer and copy locale files to your application."
 
