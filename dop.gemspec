@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["James Dela Cruz"]
   spec.email         = ["delacruzjamesmartin@gmail.com"]
 
-  spec.summary       = "Ruby SDK for DragonPay Online Payment"
+  spec.summary       = "DragonPay Online Payment"
   spec.description   = "Ruby SDK for DragonPay Online Payment"
   spec.homepage      = "https://github.com/delacruzjames/dop"
   spec.license       = "MIT"
@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "rake", ">= 12.3.3"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "pry", "~> 0.12.2"
+  spec.add_development_dependency 'rake', '~> 12.3', '>= 12.3.3'
 end
